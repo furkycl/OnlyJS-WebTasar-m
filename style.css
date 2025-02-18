@@ -1,0 +1,69 @@
+.loginbutton {
+  color: #0c66ee;
+  background-color: #fff;
+  border-color: #0c66ee;
+  padding: 1rem 3rem;
+  border-radius: 40px;
+  border-width: 2px;
+  --bs-btn-hover-border-color: #0c66ee;
+}
+.loginbutton:hover {
+  background-color: #0c66ee;
+  color: #fff;
+}
+
+.header {
+  background-color: #82a2d2;
+}
+
+.signupbutton {
+  color: #fff;
+  background-color: #0c66ee;
+  border-color: #0c66ee;
+  padding: 1rem 3rem;
+  border-radius: 40px;
+  border-width: 2px;
+}
+.signupbutton:hover {
+  color: #0c66ee;
+  border-color: #0c66ee;
+}
+
+.header-getstartedbutton {
+  color: #fff;
+  background-color: #0c66ee;
+  border-color: #0c66ee;
+  padding: 1rem 3rem;
+  border-radius: 40px;
+  border-width: 2px;
+  --bs-btn-hover-border-color: #0c66ee;
+}
+
+.header-downloadappbutton {
+  color: #0c66ee;
+  background-color: #fff;
+  border-color: #0c66ee;
+  padding: 1rem 3rem;
+  border-radius: 40px;
+  border-width: 2px;
+  --bs-btn-hover-border-color: #0c66ee;
+}
+
+.header-signup {
+  color: linear-gradient(90deg, rgb(70, 142, 249) 0%, rgb(12, 102, 238) 100%);
+}
+
+.h1-span {
+  color: linear-gradient(90deg, rgb(57, 132, 244) 0%, rgb(12, 211, 255) 33, 33%, rgb(47, 124, 240) 66, 66%, rgb(14, 101, 232) 100%);
+}
+
+.headershape1 {
+  position: relative;
+  left: 8%;
+}
+
+.headershape2 {
+  position: relative;
+  top: 15%;
+  left: 35%;
+}/*# sourceMappingURL=style.css.map */
