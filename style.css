@@ -12,10 +12,6 @@
   color: #fff;
 }
 
-.header {
-  background-color: #82a2d2;
-}
-
 .signupbutton {
   color: #fff;
   background-color: #0c66ee;
@@ -36,34 +32,143 @@
   padding: 1rem 3rem;
   border-radius: 40px;
   border-width: 2px;
-  --bs-btn-hover-border-color: #0c66ee;
+}
+.header-getstartedbutton:hover {
+  color: #0c66ee;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.header {
+  background: rgb(116, 155, 213);
+  background: linear-gradient(225deg, rgb(116, 155, 213) 41%, rgb(155, 218, 232) 48%, rgb(172, 190, 217) 54%, rgb(193, 204, 221) 61%);
 }
 
 .header-downloadappbutton {
   color: #0c66ee;
   background-color: #fff;
-  border-color: #0c66ee;
+  border: 2px solid;
   padding: 1rem 3rem;
   border-radius: 40px;
   border-width: 2px;
-  --bs-btn-hover-border-color: #0c66ee;
+}
+.header-downloadappbutton:hover {
+  color: #fff;
+  background-color: #0c66ee;
 }
 
 .header-signup {
-  color: linear-gradient(90deg, rgb(70, 142, 249) 0%, rgb(12, 102, 238) 100%);
+  background: linear-gradient(53deg, rgb(70, 142, 249) 0%, rgb(12, 102, 238) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .h1-span {
-  color: linear-gradient(90deg, rgb(57, 132, 244) 0%, rgb(12, 211, 255) 33, 33%, rgb(47, 124, 240) 66, 66%, rgb(14, 101, 232) 100%);
+  background: linear-gradient(225deg, rgb(57, 148, 244) 0%, rgb(12, 211, 255) 39.06%, rgb(47, 124, 240) 76.56%, rgb(14, 101, 232) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .headershape1 {
-  position: relative;
-  left: 8%;
+  position: absolute;
+  bottom: -20%;
+  left: -10%;
 }
 
 .headershape2 {
-  position: relative;
-  top: 15%;
-  left: 35%;
+  position: absolute;
+  top: -10%;
+  right: 30%;
+}
+
+.headershape3 {
+  position: absolute;
+  top: 10%;
+}
+
+.headershape4 {
+  position: absolute;
+  bottom: 35%;
+  right: 10%;
+}
+
+.tables {
+  margin-top: -65px;
+  padding: 2rem;
+}
+
+.tables-container {
+  background-color: rgb(220, 214, 214);
+  border-radius: 25px;
+}
+
+.greenplus {
+  color: green;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.redminus {
+  color: red;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.input-generator-money {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid;
+  border-radius: 22px;
+  border-color: #0c66ee;
+  width: 12rem;
+  margin-right: 1rem;
+}
+
+.input-generator-crypto {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid;
+  border-radius: 22px;
+  border-color: #0c66ee;
+  width: 12rem;
+  margin-right: 1rem;
+}
+
+.moneyinput {
+  border: 0;
+  border-left: 1px solid;
+  border-color: #0c66ee;
+  text-align: end;
+  width: 5rem;
+}
+
+#currency {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 22px;
+  border-color: #0c66ee;
+  width: 5rem;
+}
+
+.cryptoinput {
+  margin-left: 1rem;
+  border: 0;
+  border-left: 1px solid;
+  border-color: #0c66ee;
+  text-align: end;
+  width: 5rem;
+}
+
+#cryptocurrency {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 22px;
+  border-color: #0c66ee;
+  width: 6rem;
+}
+
+.buynow {
+  border-radius: 25px;
 }/*# sourceMappingURL=style.css.map */
