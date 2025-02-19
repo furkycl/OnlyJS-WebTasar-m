@@ -63,7 +63,7 @@
     </nav>
   </div>
 
-  <header class="header">
+  <header class="header" id="header">
     <div class="container">
       <div class="row align-items-center position-relative">
         <div class="col-12 col-lg-6 position-relative text-center text-lg-start mt-5 mb-5">
@@ -255,16 +255,227 @@
           <img class="img-fluid" src="pictures/creditcard.png">
         </div>
         <div class="col-lg-6 p-5">
-          <h3>Introducing the NEFA Credit Card</h3>
-          <p>Subject to cardholder and rewards terms which will be available at application.</p>
-          <ul>
+          <h3>Introducing the <span class="h3nefa">NEFA</span> Credit Card</h3>
+          <p class="text-muted">Subject to cardholder and rewards terms which will be available at application.</p>
+          <ul class="creditcardlist">
             <li>Up to 3% back on purchases</li>
             <li>Earn rewards in bitcoin or any crypto on NEFA</li>
             <li>No annual fee</li>
-            <button>Join the waitlist</button>
+          </ul>
+          <button class="creditcardbutton col-12 col-lg-6">Join the waitlist</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="advancetrading">
+    <div class="container">
+      <div class="row align-items-center p-5">
+        <div class="col-lg-6 order-1 order-lg-0">
+          <h3 class="mt-3 mb-4">Advanced Trading <span class="advancetradingtools">Tools</span></h3>
+          <h4>Professional Access, Non-stop Availability</h4>
+          <p class="text-muted">We provide premium access to crypto trading for both individuals and institutions
+            through high liquidity, reliable order execution and constant uptime.</p>
+          <h4 class="mt-4">A Range of Powerful Apis</h4>
+          <p class="text-muted">Set up your own trading interface or deploy your algorithmic strategy with our
+            high-performance FIX and HTTP APIs. Connect to our WebSocket for real-time data streaming.</p>
+          <h4 class="mt-4">Customer Support</h4>
+          <p class="text-muted">Premium 24/7 support available to all customers worldwide by phone or email. Dedicated
+            account managers for partners.</p>
+          <div class="row align-items-center">
+            <div class="col-lg-6 mb-3">
+              <button class="advancetradingbutton col-12">
+                Get Started
+              </button>
+            </div>
+            <div class="col-lg-6 text-center">
+              <a href="#" class="col-12">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 order-0 order-lg-1">
+          <img src="pictures/advancedtradingpic.svg" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="securitysection mb-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 p-5">
+          <img class="img-fluid" src="pictures/securitypic.svg">
+        </div>
+        <div class="col-lg-6 p-5">
+          <h3 class="mb-5">Industry-leading security from day one</h3>
+          <ul class="securitysectionlist">
+            <li>Safety, security and compliance</li>
+            <p>NEFA is a licensed New York trust company that undergoes regular bank exams and is subject to the
+              cybersecurity audits conducted by the New York Department of Financial Services. Learn more about our
+              commitment to security.
+            </p>
+            <li>Hardware security keys</li>
+            <p>With NEFA you can secure your account with a hardware security key via WebAuthn.</p>
+            <li>SOC Certifications</li>
+            <p>NEFA is SOC 1 Type 2 and SOC 2 Type 2 compliant. We are the world’s first cryptocurrency exchange and
+              custodian to complete these exams.</p>
           </ul>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="getstartedsection">
+    <div class="container text-center">
+      <h2>Get started in just a few minutes</h2>
+      <div class="row m-5">
+        <div class="col-lg-4">
+          <img src="pictures/getstarted1.svg" alt="getstarted1" class="position-relative">
+          <img src="pictures/getstartedline.svg" class="img-fluid getstartedline d-none d-xl-block">
+          <h5>Sign Up</h5>
+          <p class="text-muted">Buy Bitcoin or Ethereum, then securely store it in your Wallet or send it on easily to
+            friends</p>
+        </div>
+        <div class="col-lg-4">
+          <img src="pictures/getstarted2.svg" alt="getstarted2">
+          <img src="pictures/getstartedline.svg" class="img-fluid getstartedline d-none d-xl-block">
+          <h5>Fund</h5>
+          <p class="text-muted">Choose your preferred payment method such as bank transfer or credit card to top up your
+            NEFA Wallet</p>
+        </div>
+        <div class="col-lg-4">
+          <img src="pictures/getstarted3.svg" alt="getstarted3">
+          <h5>Buy Crypto</h5>
+          <p class="text-muted">Sign up for your free NEFA Wallet on web, iOS or Android and follow our easy process to
+            set up your profile</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="questions m-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <img src="pictures/questionspic.svg" alt="" class="img-fluid">
+        </div>
+        <div class="col-lg-6">
+          <span class="text-primary">SUPPORT</span>
+          <h3>Frequently asked questions</h3>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Why should I choose NEFA?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  We're industry pioneers, having been in the cryptocurrency industry since 2016. We've facilitated more
+                  than 21 billion USD worth of transactions on our exchange for customers in over 40 countries. Today,
+                  we're trusted by over 8 million customers around the world and have received praise for our
+                  easy-to-use app, secure wallet, and range of features.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How secure is NEFA?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Do I have to buy a whole Bitcoin?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  How do I actually buy Bitcoin?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <button class="backtotop"><a href="#header" class="text-muted text-decoration-none">Back to top ⬆️</a></button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-section p-5">
+      <div class="row">
+        <div class="col-lg-3 mb-5">
+          <img src="icons/navbaricon.png" alt="nefaicon">
+        </div>
+        <div class="col-lg-2 footer-col mb-5">
+          <span class="d-block mb-3">Buy Crypto</span>
+          <span class="d-block mb-3">Exchanges</span>
+          <span class="d-block mb-3">Watchlist</span>
+          <span class="d-block mb-3">Portfolio</span>
+          <span class="d-block mb-3">NFT</span>
+        </div>
+        <div class="col-lg-2 footer-col mb-5">
+          <span class="d-block mb-3">Products</span>
+          <span class="d-block mb-3">About Us</span>
+          <span class="d-block mb-3">Careers</span>
+          <span class="d-block mb-3">Blog</span>
+          <span class="d-block mb-3">Security</span>
+        </div>
+        <div class="col-lg-2 footer-col mb-5">
+          <span class="d-block mb-3">Help Center</span>
+          <span class="d-block mb-3">Contact Us</span>
+          <span class="d-block mb-3">System Status</span>
+          <span class="d-block mb-3">Area of Avaibility</span>
+          <span class="d-block mb-3">Privacy Policy</span>
+        </div>
+        <div class="col-lg-3">
+          <span class="text-black-50 d-block mb-3">Newsletter</span>
+          <span class="text-muted d-block mb-3">Never miss anything crypto when you're on the go</span>
+          <input type="email" placeholder="Enter your email" class="footer-input-email"><button class="footer-sendemailbutton">➡</button>
+        </div>
+  </footer>
+
+  <section class="copyright">
+    <div class="container text-center">
+      <p class="text-muted m-3">© CFY 2025</p>
     </div>
   </section>
 

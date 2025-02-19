@@ -176,3 +176,86 @@ background: linear-gradient(225deg, rgba(116,155,213,1) 41%, rgb(155, 218, 232) 
 .buynow{
     border-radius: 25px;
 }
+
+.h3nefa {
+    background: linear-gradient(53deg, rgba(70,142,249,1) 0%, rgba(12,102,238,1) 100%);
+    background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.creditcardlist {
+    list-style: url(icons/bulletli.png);
+    li{
+        margin-bottom: 1.5rem;
+    }
+}
+
+.creditcardbutton {
+    color: #0c66ee;
+    background-color: #fff;
+    border: 2px solid;
+    padding: 1rem 3rem;
+    border-radius: 40px;
+    border-width: 2px;
+    &:hover {
+        color: #fff;
+        background-color: #0c66ee;
+    }
+}
+
+.advancetradingbutton {
+    color: #0c66ee;
+    background-color: #fff;
+    border: 2px solid;
+    padding: 1rem 3rem;
+    border-radius: 40px;
+    border-width: 2px;
+    &:hover {
+        color: #fff;
+        background-color: #0c66ee;
+    }
+}
+
+.advancetradingtools {
+    background: linear-gradient(53deg, rgba(70,142,249,1) 0%, rgba(12,102,238,1) 100%);
+    background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.securitysectionlist {
+    list-style: url(icons/bulletli.png);
+    li{
+        margin-bottom: rem;
+    }
+}
+
+.getstartedline {
+    position:relative;
+    top:-35%;
+    right: -80%;
+}
+
+.backtotop {
+    padding:1rem 2rem;
+    border: 1px solid;
+    border-color: rgb(170, 169, 169);
+}
+
+.footer-section {
+    border-top: 1px ridge;
+    border-bottom: 1px ridge;
+}
+
+.footer-col {
+    border-right: 1px ridge;
+}
+
+.footer-input-email {
+    width: 75%;
+}
+
+.footer-sendemailbutton {
+    background-color: #0c66ee;
+}
