@@ -237,10 +237,17 @@ background: linear-gradient(225deg, rgba(116,155,213,1) 41%, rgb(155, 218, 232) 
     right: -80%;
 }
 
+@media (max-width:1399px) {
+    .getstartedline {
+        width: 50%;
+    }
+}
+
 .backtotop {
     padding:1rem 2rem;
     border: 1px solid;
     border-color: rgb(170, 169, 169);
+    margin-top: 2rem;
 }
 
 .footer-section {
